@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Autodiagnóstico}
+            
+        \vspace{0.5cm}
+        \LARGE
+        Taller-Nociones de la memoria del computador
+            
+        \vspace{1.5cm}
+            
+        \textbf{Jesid Santiago Lopez Cardona}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Septiembre de 2020
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\section{Introducción}Este autodiagnóstico se hará con la intención de revisar los conocimientos que se tienen sobre las memorias y los tipos que existen, así como las practicas que se suelen aplicar sobre estas.
+
+\section{Defina que es la memoria del computador}La memoria de los computadores es de los componentes más importantes para que este trabaje como es debido. Su tarea principal es la de almacenar por tiempo limitado la información que esta usando el procesador para procesarla y entregar los resultados esperados por el usuario.
+
+\section{Tipos de memoria y descripción de cada tipo.} \label{contenido}
+
+Existen varios tipos de memoria entre los cuales están:
+
+\begin{enumerate}
+    \item Memoria RAM
+    
+    \begin{itemize}
+        \item Memoria RAM (Random Access Memory, Memoria de Acceso Aleatorio) Es la memoria temporal del computador. Su función es guardar la información de los procesos que estes usando en el computador. Esta memoria solo funciona cuando el computador esté encendido y borrará los datos que no sean guardados en el disco del computador al apagarlo.
+    \end{itemize}
+    \item Memoria ROM
+    \begin{itemize}
+        \item La memoria ROM (Read Only Memory, Memoria de Sólo Lectura) es un componente electrónico que se puede encontrar en computadoras y otros dispositivos electrónicos. Tienen la función de gaurdar los datos e instrucciones que necesitan sus dispositivos para iniciar con normalidad.
+        
+        \item Memoria EEPROM: (Electrically Erasable Progammable Read Only Memory, Memoria de sólo lectura programable y borrable eléctricamente). Estas memorias guardan su información aún sin tener energía. Puede borrarse, tanto dentro del computador como externamente. Chips EPROM pueden ser removidos de los dispositivos en los que se incorporan, reprogramar y reinsertados.\cite{eeprom} Este tipo de memorias se usaron en los cartuchos de Super Nintendo y Nintendo 64.
+    \end{itemize}
+\end{enumerate}
+
+\section{Como se gestiona la memoria en un computador}En un sistema multitarea se necesita que la parte de la memoria que use el usuario deba dividirse para que puedan correr varios procesos. Esta tarea de división la realiza el sistema operativo y se le llama "gestión de memoria".
+En un sistema multitarea es muy conveniente que la gestión de la memoria sea efectiva. Para realizar este proceso se tienen en cuenta estos requisitos: 
+\begin{enumerate}
+    \item Reubicación
+    \item Protección
+    \item Compartición
+    \item Organización Lógica
+    \item Organización física
+\end{enumerate}
+
+\section{¿Qué hace que una memoria sea más rápida que otra?} La frecuencia de una memoria es lo que hace que una sea más rápida a comparación de otra. Esta frecuencia se mide en Megahercios y esto es importante saberlo ya que es esta cantidad es la que nos da a entender que tan rápidos son nuestros módulos de memoria.
+
+\section{Conclusion}\label{Conclusion} Con este autodiagnóstico podemos ver que tipo de conocimientos teníamos y aprendimos sobre las memorias y sus tipo, como gestionarlas y algunas de sus caracteristicas como que es lo que define la velocidad de estas.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
